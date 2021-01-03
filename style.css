@@ -1,11 +1,15 @@
 body{
+    margin: 0;
     font-family: 'Redressed', cursive;
 }
 h1{
     font-size: 50px;
 }
 
-.name-highlight{
+p{
+    color: dimgray;
+}
+.orange-highlight{
     color: rgb(141, 10, 119);
 }
 
@@ -18,4 +22,72 @@ h1{
 
 .half-width img{
     width: 80%;
+}
+.top-banner{
+    
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 50px;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(132, 185, 107), rgb(78, 88, 78)
+    );
+
+    padding: 8px 20px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: 400;
+}
+.dream-area{
+    background-image: url("Images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 7%;
+    padding-bottom: 10px;
+}
+.dream-area p{
+    padding-bottom: 10px;
+}
+
+.top-banner p{
+    padding-bottom: 10px;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 70%;
+    background-color: aliceblue;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 6%;
+}
+
+#fullstack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#compprog{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(130, 189, 130), rgb(2, 131, 2));
+    border-image-slice: 1;
+}
+
+#exptag{
+    padding-left: 15px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 13px;
 }
